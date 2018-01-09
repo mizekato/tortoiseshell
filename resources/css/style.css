@@ -1,0 +1,187 @@
+/* Universal Styles */
+
+html {
+  font-size: 14px;
+}
+
+body {
+  font-family: Helvetica, sans-serif;
+  line-height: 1.4;
+  font-size: 1rem;
+
+}
+
+h1 {
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+h4 {
+  font-size: 1rem;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+
+}
+
+/* Main Banner */
+
+.main-banner  {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/tortoiseshell-optics/resources/images/glasses-bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 30rem;
+  /*display: flex;
+  flex-direction: column;*/
+}
+
+/*Company Header*/
+
+.company {
+  background-color: cadetblue;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  top: 1rem;
+
+  height: 4rem;
+}
+
+.logo {
+
+  display: flex;
+  align-items: center;
+  margin: 1rem 2rem;
+
+}
+
+.logo img {
+  max-height: 1.5rem;
+  padding: 1rem 1rem;
+
+}
+
+
+
+
+
+ nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+
+    }
+
+
+  nav li {
+    padding-right: 2rem;
+    margin: 1rem 0;
+
+  }
+
+
+
+.mobile-nav {
+  display: none;
+
+}
+
+/* Headline */
+
+ .headline  {
+   display: inline;
+   background-color: white;
+
+   position: relative;
+   top: 10rem;
+   padding: 1.5rem 5rem;
+}
+
+
+
+
+/*Services*/
+
+.services {
+  display: inline-flex;
+  justify-content: space-around;
+  align-content: center;
+  width: 98%;
+}
+
+.service {
+  height: 8rem;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  overflow: wrap;
+  margin: 3rem 3rem;
+
+}
+
+
+
+.service-image {
+  display: block;
+  width: 5rem;
+}
+
+ .paper  {
+  width: 3.5rem;
+}
+
+
+.description  {
+  width: 5rem;
+
+}
+
+.business-info {
+  width: 98%;
+  display: flex;
+  justify-content: center;
+
+}
+
+.info {
+  width: 35%;
+  height: auto;
+  margin-right: 5%;
+}
+
+.title {
+  background-color: cadetblue;
+  color: white;
+  font-weight: bold;
+  width: 10rem;
+  padding: 0.5rem 1.25rem;
+  display: block;
+  margin-bottom: 1rem;
+
+  }
+
+
+  .logo-footer {
+    display: flex;
+    align-items: center;
+    padding: 4rem 4rem;
+    background-color: azure;
+    margin-top: 5rem;
+
+  }
+
+  .logo-footer img {
+    max-height: 1.5rem;
+    padding: 1rem 1rem;
+
+  }
